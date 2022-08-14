@@ -152,6 +152,7 @@ a.button.secondary, button.secondary {
 main {
   width: 800px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 main input {
@@ -220,7 +221,7 @@ main img {
   }
 
   main {
-    margin-left: 222px;
+    padding-left: 108px;
   }
 }
 
