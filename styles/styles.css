@@ -12,8 +12,8 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #668dbf;
+  --link-hover-color: #769dcf;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
@@ -43,6 +43,10 @@
 }
 
 body {
+  /* background-image: url('screenshot-1.png'); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 800px;
   font-size: var(--body-font-size-m);
   margin: 0;
   font-family: var(--body-font-family);
@@ -57,6 +61,8 @@ body.appear {
 }
 
 header {
+  width: 800px;
+  margin: auto;
   height: var(--nav-height);
 }
 
@@ -141,8 +147,12 @@ a.button.secondary, button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
   color: var(--text-color)
-} 
+}
 
+main {
+  width: 800px;
+  margin: auto;
+}
 
 main input {
   font-size: 1.25rem;
@@ -207,7 +217,11 @@ main img {
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
-  }  
+  }
+
+  main {
+    margin-left: 222px;
+  }
 }
 
 @media (min-width: 900px) {

@@ -1,0 +1,13 @@
+.covers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+
+.covers > div {
+  width: 110px;
+}
+
+.covers .covers-label {
+  display: none;
+}
