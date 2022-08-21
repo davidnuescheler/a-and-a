@@ -150,7 +150,7 @@ a.button.secondary, button.secondary {
 }
 
 main {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   box-sizing: border-box;
 }
